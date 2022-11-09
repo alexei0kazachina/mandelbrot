@@ -1,5 +1,5 @@
 [package]
-name = "mnojestvo_mandelbrota"
+name = "mandelbrot"
 version = "0.1.0"
 edition = "2021"
 authors = ["Alexei Kazachina <alexei.kazachina@yandex.com>"]

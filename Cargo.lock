@@ -182,21 +182,21 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "7d947cbb889ed21c2a84be6ffbaebf5b4e0f4340638cba0444907e38b56be084"
 
 [[package]]
+name = "mandelbrot"
+version = "0.1.0"
+dependencies = [
+ "crossbeam",
+ "image",
+ "num",
+]
+
+[[package]]
 name = "memoffset"
 version = "0.6.5"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "5aa361d4faea93603064a027415f07bd8e1d5c88c9fbf68bf56a285428fd79ce"
 dependencies = [
  "autocfg",
-]
-
-[[package]]
-name = "mnojestvo_mandelbrota"
-version = "0.1.0"
-dependencies = [
- "crossbeam",
- "image",
- "num",
 ]
 
 [[package]]
